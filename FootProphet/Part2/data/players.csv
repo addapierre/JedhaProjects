@@ -1,0 +1,716 @@
+club,club_id,number,name,short_name,DoB,poste,lequipe_id
+Angers ,374,16,Anthony Mandrea,A. Mandrea,25/12/96,Gar.,50523
+Angers ,374,30,Danijel Petkovic,D. Petkovic,25/05/93,Gar.,53178
+Angers ,374,25,Abdoulaye Bamba,A. Bamba,25/04/90,Déf.,34789
+Angers ,374,20,Kevin Boma,K. Boma,20/11/02,Déf.,77429
+Angers ,374,,Elhadji Pape Diaw,E. Diaw,31/12/94,Déf.,71974
+Angers ,374,3,Souleyman Doumbia,S. Doumbia,24/09/96,Déf.,53361
+Angers ,374,,Ismaël Dramé,I. Dramé,27/05/01,Déf.,76808
+Angers ,374,6,Enzo Ebosse,E. Ebosse,11/03/99,Déf.,58990
+Angers ,374,29,Vincent Manceau,V. Manceau,10/07/89,Déf.,29773
+Angers ,374,2,Batista Mendy,B. Mendy,12/01/00,Déf.,70155
+Angers ,374,,Blondon Meyapya,B. Meyapya,10/02/01,Déf.,89927
+Angers ,374,24,Romain Thomas,R. Thomas,12/06/88,Déf.,27254
+Angers ,374,8,Ismaël Traoré,I. Traoré,18/08/86,Déf.,26892
+Angers ,374,,Kevin Bemanga,K. Bemanga,20/04/98,Mil.,82632
+Angers ,374,23,Nabil Bentaleb,N. Bentaleb,24/11/94,Mil.,50329
+Angers ,374,7,Sofiane Boufal,S. Boufal,17/09/93,Mil.,46994
+Angers ,374,14,Billal Brahimi,B. Brahimi,14/03/00,Mil.,76160
+Angers ,374,11,Jimmy Cabot,J. Cabot,18/04/94,Mil.,48524
+Angers ,374,15,Pierrick Capelle,P. Capelle,15/04/87,Mil.,37125
+Angers ,374,21,Mohamed-Ali Cho,M. Cho,19/01/04,Mil.,82985
+Angers ,374,,Matteo Corduan,M. Corduan,19/06/02,Mil.,94182
+Angers ,374,10,Angelo Fulgini,A. Fulgini,20/08/96,Mil.,55834
+Angers ,374,,Anthony Gomez Mancini,A. Gomez Mancini,06/04/01,Mil.,70752
+Angers ,374,,Walim Lgharbi,W. Lgharbi,25/01/03,Mil.,88830
+Angers ,374,5,Thomas Mangani,T. Mangani,29/04/87,Mil.,24586
+Angers ,374,12,Zinédine Ould Khaled,Z. Ould Khaled,14/01/00,Mil.,76516
+Angers ,374,18,Azzedine Ounahi,A. Ounahi,19/04/00,Mil.,76654
+Angers ,374,27,Mathias Pereira Lage,M. Pereira Lage,30/11/96,Mil.,58974
+Angers ,374,26,Waniss Taïbi,W. Taïbi,07/03/02,Mil.,76804
+Angers ,374,19,Stéphane Bahoken,S. Bahoken,28/05/92,Att.,41347
+Angers ,374,17,Noah Fatar,N. Fatar,15/02/02,Att.,76757
+Angers ,374,,Jason Mbock,J. Mbock,01/11/99,Att.,66205
+Angers ,374,,Guede Noah Nadje,G. Nadje,12/11/03,Att.,89928
+Angers ,374,9,Casimir Rodrigue Ninga,C. Ninga,17/05/93,Att.,57815
+Nantes ,15,,Lucas Bonelli,L. Bonelli,14/02/03,Gar.,91225
+Nantes ,15,16,Rémy Descamps,R. Descamps,25/06/96,Gar.,50741
+Nantes ,15,1,Alban Lafont,A. Lafont,23/01/99,Gar.,58416
+Nantes ,15,30,Denis Petric,D. Petric,24/05/88,Gar.,26215
+Nantes ,15,12,Dennis Appiah,D. Appiah,09/06/92,Déf.,36631
+Nantes ,15,21,Jean-Charles Castelletto,J. Castelletto,26/01/95,Déf.,48700
+Nantes ,15,24,Sébastien Corchia,S. Corchia,01/11/90,Déf.,32012
+Nantes ,15,2,Da Silva Fabio,D. Fabio,09/07/90,Déf.,29842
+Nantes ,15,3,Andrei Girotto,A. Girotto,17/02/92,Déf.,64846
+Nantes ,15,4,Nicolas Pallois,N. Pallois,19/09/87,Déf.,255000000000000000000025391
+Nantes ,15,33,Abdoulaye Sylla,A. Sylla,10/04/00,Déf.,75109
+Nantes ,15,14,Charles Traoré,C. Traoré,01/01/92,Déf.,58852
+Nantes ,15,,Robin Voisine,R. Voisine,07/04/02,Déf.,90816
+Nantes ,15,,Mohamed Achi,M. Achi,,Mil.,86742
+Nantes ,15,10,Ludovic Blas,L. Blas,31/12/97,Mil.,57197
+Nantes ,15,5,Pedro Chirivella,P. Chirivella,23/05/97,Mil.,58069
+Nantes ,15,11,Marcus Coco,M. Coco,24/06/96,Mil.,55826
+Nantes ,15,8,Wylan Cyprien,W. Cyprien,28/01/95,Mil.,46366
+Nantes ,15,,Abdoulaye Dabo,A. Dabo,04/03/01,Mil.,69777
+Nantes ,15,,Lohann Doucet,L. Doucet,17/09/02,Mil.,90822
+Nantes ,15,,Santiago Eneme,S. Eneme,29/09/00,Mil.,89513
+Nantes ,15,17,Anthony Limbombe,A. Limbombe,15/07/94,Mil.,39440
+Nantes ,15,,Yannis M'Bemba,Y. M'Bemba,01/07/01,Mil.,84102
+Nantes ,15,31,Gor Manvelyan,G. Manvelyan,09/04/02,Mil.,83378
+Nantes ,15,29,Quentin Merlin,Q. Merlin,16/05/02,Mil.,56050
+Nantes ,15,18,Samuel Moutoussamy,S. Moutoussamy,12/08/96,Mil.,52550
+Nantes ,15,6,Roli Pereira de Sa,R. Pereira de Sa,10/12/96,Mil.,50750
+Nantes ,15,20,Jean-Kévin Augustin,J. Augustin,16/06/97,Att.,53360
+Nantes ,15,26,Osman Bukari,O. Bukari,13/12/98,Att.,83670
+Nantes ,15,7,Kalifa Coulibaly,K. Coulibaly,21/08/91,Att.,43682
+Nantes ,15,19,Willem Geubbels,W. Geubbels,16/08/01,Att.,63644
+Nantes ,15,23,Randal Kolo Muani,R. Kolo Muani,05/12/98,Att.,59526
+Nantes ,15,27,Moses Daddy Simon,M. Simon,12/07/95,Att.,55845
+Strasbourg ,13,36,Alaa Bellaarouch,A. Bellaarouch,01/01/02,Gar.,83980
+Strasbourg ,13,16,Eiji Kawashima,E. Kawashima,20/03/83,Gar.,36275
+Strasbourg ,13,1,Matz Sels,M. Sels,26/02/92,Gar.,38393
+Strasbourg ,13,19,Anthony Caci,A. Caci,01/07/97,Déf.,60746
+Strasbourg ,13,24,Alexander Djiku,A. Djiku,09/08/94,Déf.,47894
+Strasbourg ,13,33,Marvin Elimbi Gilbert,M. Elimbi Gilbert,20/02/03,Déf.,86572
+Strasbourg ,13,4,Karol Fila,K. Fila,13/06/98,Déf.,75474
+Strasbourg ,13,2,Frédéric Guilbert,F. Guilbert,24/12/94,Déf.,45756
+Strasbourg ,13,23,Maxime Le Marchand,M. Le Marchand,11/10/89,Déf.,33120
+Strasbourg ,13,22,Gerzino Nyamsi,G. Nyamsi,22/01/97,Déf.,61882
+Strasbourg ,13,,Abdoulaye Ousmane,A. Ousmane,22/02/00,Déf.,76087
+Strasbourg ,13,5,Lucas Perrin,L. Perrin,19/11/98,Déf.,58394
+Strasbourg ,13,37,Aymeric Ahmed,A. Ahmed,08/11/03,Mil.,91216
+Strasbourg ,13,6,Jean-Eudes Aholou,J. Aholou,20/03/94,Mil.,48281
+Strasbourg ,13,,Ahmed Aymeric,A. Aymeric,08/11/03,Mil.,89511
+Strasbourg ,13,17,Jean-Ricner Bellegarde,J. Bellegarde,27/06/98,Mil.,58061
+Strasbourg ,13,,Benjamin Besic,B. Besic,02/06/02,Mil.,83547
+Strasbourg ,13,33,Mouhamadou Diarra,M. Diarra,03/01/04,Mil.,91135
+Strasbourg ,13,34,Nordine Kandil,N. Kandil,30/10/01,Mil.,91554
+Strasbourg ,13,11,Dimitri Liénard,D. Liénard,13/02/88,Mil.,37283
+Strasbourg ,13,14,Sanjin Prcic,S. Prcic,20/11/93,Mil.,36991
+Strasbourg ,13,27,Ibrahima Sissoko,I. Sissoko,27/10/97,Mil.,58469
+Strasbourg ,13,33,Noé Sommer,N. Sommer,17/06/01,Mil.,84565
+Strasbourg ,13,10,Adrien Thomasson,A. Thomasson,10/12/93,Mil.,45466
+Strasbourg ,13,25,Ludovic Ajorque,L. Ajorque,25/02/94,Att.,53977
+Strasbourg ,13,20,Habib Diallo,H. Diallo,18/06/95,Att.,54331
+Strasbourg ,13,,Habib Diarra,H. Diarra,03/01/04,Att.,91215
+Strasbourg ,13,9,Kévin Gameiro,K. Gameiro,09/05/87,Att.,23364
+Strasbourg ,13,31,Moïse Dion Sahi,M. Sahi,20/12/01,Att.,87202
+Strasbourg ,13,8,Abdul Majeed Waris,A. Waris,19/09/91,Att.,47957
+Paris-SG (PSG) ,26,50,Gianluigi Donnarumma,G. Donnarumma,25/02/99,Gar.,56792
+Rennes ,14,40,Dogan Alemdar,D. Alemdar,29/10/02,Gar.,70275
+Montpellier ,17,16,Dimitry Bertaud,D. Bertaud,06/06/98,Gar.,55640
+Troyes ,30,1,Ryan Bouallak,R. Bouallak,19/08/99,Gar.,67652
+Paris-SG (PSG) ,26,,Garissone Innocent,G. Innocent,16/04/00,Gar.,70145
+Paris-SG (PSG) ,26,60,Alexandre Letellier,A. Letellier,11/12/90,Gar.,36512
+Paris-SG (PSG) ,26,1,Keylor Navas,K. Navas,15/12/86,Gar.,35349
+Paris-SG (PSG) ,26,14,Juan Bernat,J. Bernat,01/03/93,Déf.,43327
+Paris-SG (PSG) ,26,31,El Chadaille Bitshiabu,E. Bitshiabu,16/05/05,Déf.,82555
+Paris-SG (PSG) ,26,17,Colin Dagba,C. Dagba,09/09/98,Déf.,59115
+Paris-SG (PSG) ,26,22,Abdou Diallo,A. Diallo,04/05/96,Déf.,50508
+Paris-SG (PSG) ,26,2,Achraf Hakimi,A. Hakimi,04/11/98,Déf.,62473
+Paris-SG (PSG) ,26,24,Thilo Kehrer,T. Kehrer,21/09/96,Déf.,56086
+Paris-SG (PSG) ,26,3,Presnel Kimpembe,P. Kimpembe,13/08/95,Déf.,50744
+Paris-SG (PSG) ,26,20,Layvin Kurzawa,L. Kurzawa,04/09/92,Déf.,36660
+Rennes ,14,30,Pepe Bonet,P. Bonet,13/02/03,Gar.,77551
+Rennes ,14,16,Alfred Gomis,A. Gomis,05/09/93,Gar.,46865
+Rennes ,14,1,Romain Salin,R. Salin,29/07/84,Gar.,20417
+Rennes ,14,6,Nayef Aguerd,N. Aguerd,30/03/96,Déf.,69535
+Rennes ,14,22,Lorenz Assignon,L. Assignon,22/06/00,Déf.,84002
+Rennes ,14,4,Loïc Badé,L. Badé,11/04/00,Déf.,68185
+Rennes ,14,,Jérémy Gélin,J. Gélin,24/04/97,Déf.,58130
+Rennes ,14,25,Birger Meling,B. Meling,17/12/94,Déf.,65332
+Rennes ,14,23,Warmed Omari,W. Omari,23/04/00,Déf.,82656
+Rennes ,14,27,Hamari Traoré,H. Traoré,27/01/92,Déf.,46374
+Rennes ,14,3,Adrien Truffert,A. Truffert,20/11/01,Déf.,82608
+Montpellier ,17,30,Matis Carvalho,M. Carvalho,28/04/99,Gar.,71248
+Montpellier ,17,1,Jonas Omlin,J. Omlin,10/01/94,Gar.,53388
+Montpellier ,17,31,Nicolas Cozza,N. Cozza,08/01/99,Déf.,61762
+Montpellier ,17,14,Maxime Estève,M. Estève,26/05/02,Déf.,78027
+Montpellier ,17,,Redouane Halhal,R. Halhal,05/03/03,Déf.,90800
+Montpellier ,17,5,Pedro Mendes,P. Mendes,01/10/90,Déf.,48186
+Montpellier ,17,8,Ambroise Oyongo,A. Oyongo,22/06/91,Déf.,54929
+Montpellier ,17,7,Mihailo Ristic,M. Ristic,31/10/95,Déf.,61597
+Montpellier ,17,3,Mamadou Sakho,M. Sakho,13/02/90,Déf.,26642
+Montpellier ,17,2,Arnaud Souquet,A. Souquet,12/02/92,Déf.,33372
+Troyes ,30,30,Gauthier Gallon,G. Gallon,23/04/93,Gar.,41996
+Troyes ,30,,Ronan Jay,R. Jay,25/04/01,Gar.,71897
+Troyes ,30,40,Jessy Moulin,J. Moulin,13/01/86,Gar.,22556
+Troyes ,30,16,Sébastien Rénot,S. Rénot,11/11/89,Gar.,36210
+Troyes ,30,,Benrandy Abdallah,B. Abdallah,01/07/99,Déf.,70774
+Troyes ,30,,Enzo Alfatahi,E. Alfatahi,09/07/03,Déf.,84496
+Troyes ,30,4,Giulian Biancone,G. Biancone,31/03/00,Déf.,71203
+Troyes ,30,12,Abdu Conté,A. Conté,24/03/98,Déf.,72009
+Troyes ,30,19,Oualid El-Hajjam,O. El-Hajjam,19/02/91,Déf.,32762
+Troyes ,30,8,Jimmy Giraudon,J. Giraudon,16/01/92,Déf.,37189
+Troyes ,30,29,Issa Kaboré,I. Kaboré,12/05/01,Déf.,77593
+Saint-Étienne (ASSE) ,38,1,Stefan Bajic,S. Bajic,23/12/01,Gar.,70139
+Reims ,211,16,Yehvann Diouf,Y. Diouf,16/11/99,Gar.,60747
+Nice ,46,40,Walter Benitez,W. Benitez,19/01/93,Gar.,59550
+Paris-SG (PSG) ,26,5,Marquinhos,Marquinhos,14/05/94,Déf.,46961
+Paris-SG (PSG) ,26,25,Nuno Mendes,N. Mendes,19/06/02,Déf.,76513
+Paris-SG (PSG) ,26,4,Sergio Ramos,S. Ramos,30/03/86,Déf.,20248
+Paris-SG (PSG) ,26,39,Nathan Bitumazala,N. Bitumazala,10/12/02,Mil.,89618
+Paris-SG (PSG) ,26,11,Angel Di Maria,A. Di Maria,14/02/88,Mil.,27703
+Paris-SG (PSG) ,26,28,Eric Junior Dina Ebimbe,E. Dina Ebimbe,21/11/00,Mil.,69864
+Paris-SG (PSG) ,26,23,Julian Draxler,J. Draxler,20/09/93,Mil.,40344
+Paris-SG (PSG) ,26,35,Ismaël Gharbi,I. Gharbi,10/04/04,Mil.,87213
+Paris-SG (PSG) ,26,27,Idrissa Gueye,I. Gueye,26/09/89,Mil.,32874
+Paris-SG (PSG) ,26,21,Ander Herrera,A. Herrera,14/08/89,Mil.,33993
+Paris-SG (PSG) ,26,38,Edouard Michut,E. Michut,04/03/03,Mil.,82557
+Rennes ,14,33,Jeanuël Belocian,J. Belocian,17/02/05,Mil.,94162
+Rennes ,14,14,Benjamin Bourigeaud,B. Bourigeaud,14/01/94,Mil.,46363
+Rennes ,14,,Noah Françoise,N. Françoise,05/07/03,Mil.,88825
+Rennes ,14,21,Lovro Majer,L. Majer,17/01/98,Mil.,63390
+Rennes ,14,28,Jonas Martin,J. Martin,09/04/90,Mil.,32111
+Rennes ,14,,Isaac Matondo,I. Matondo,24/03/99,Mil.,62984
+Rennes ,14,,Trésor Matondo,T. Matondo,24/07/03,Mil.,93835
+Rennes ,14,8,Baptiste Santamaria,B. Santamaria,09/03/95,Mil.,51661
+Rennes ,14,20,Flavien Tait,F. Tait,02/02/93,Mil.,48782
+Rennes ,14,26,Lesley Ugochukwu,L. Ugochukwu,26/03/04,Mil.,82657
+Rennes ,14,19,Andy Diouf,A. Diouf,17/05/03,Att.,87421
+Montpellier ,17,22,Mathias Suarez,M. Suarez,24/06/96,Déf.,71137
+Montpellier ,17,17,Thibault Tamas,T. Tamas,20/02/01,Déf.,75914
+Montpellier ,17,26,Thuler,Thuler,10/03/99,Déf.,73152
+Montpellier ,17,,Gabriel Bares,G. Bares,29/08/00,Mil.,83383
+Montpellier ,17,13,Joris Chotard,J. Chotard,24/09/01,Mil.,76697
+Montpellier ,17,,Sacha Delaye,S. Delaye,23/04/02,Mil.,77122
+Montpellier ,17,12,Jordan Ferri,J. Ferri,12/03/92,Mil.,36628
+Montpellier ,17,18,Léo Leroy,L. Leroy,14/02/00,Mil.,72120
+Montpellier ,17,25,Florent Mollet,F. Mollet,19/11/91,Mil.,45598
+Montpellier ,17,6,Junior Salomon Sambia,J. Sambia,07/09/96,Mil.,53621
+Montpellier ,17,11,Téji Savanier,T. Savanier,22/12/91,Mil.,33063
+Troyes ,30,,Ruddy Kohon,R. Kohon,23/05/04,Déf.,90642
+Troyes ,30,3,Youssouf Koné,Y. Koné,05/07/95,Déf.,50743
+Troyes ,30,22,Yasser Larouci,Y. Larouci,01/01/01,Déf.,76319
+Troyes ,30,2,Erik Palmer-Brown,E. Palmer-Brown,24/04/97,Déf.,67058
+Troyes ,30,23,Adil Rami,A. Rami,27/12/85,Déf.,26847
+Troyes ,30,17,Yoann Salmier,Y. Salmier,21/11/92,Déf.,53771
+Troyes ,30,35,Tanguy Zoukrou,T. Zoukrou,07/05/03,Déf.,90643
+Troyes ,30,15,Karim Azamoum,K. Azamoum,17/01/90,Mil.,39609
+Troyes ,30,14,Dylan Chambost,D. Chambost,19/08/97,Mil.,66890
+Troyes ,30,24,Xavier Chavalerin,X. Chavalerin,07/03/91,Mil.,35862
+Saint-Étienne (ASSE) ,38,,Paul Bernardoni,P. Bernardoni,18/04/97,Gar.,53623
+Saint-Étienne (ASSE) ,38,16,Boubacar Fall,B. Fall,03/02/01,Gar.,85655
+Saint-Étienne (ASSE) ,38,40,Etienne Green,E. Green,19/07/00,Gar.,76752
+Saint-Étienne (ASSE) ,38,,Nabil Ouennas,N. Ouennas,12/07/03,Gar.,87203
+Saint-Étienne (ASSE) ,38,,Abdoulaye Bakayoko,A. Bakayoko,15/12/02,Déf.,86331
+Saint-Étienne (ASSE) ,38,34,Lucas Calodat,L. Calodat,06/02/02,Déf.,76995
+Saint-Étienne (ASSE) ,38,,Joris Gnagnon,J. Gnagnon,13/01/97,Déf.,58224
+Saint-Étienne (ASSE) ,38,5,Timothée Kolodziejczak,T. Kolodziejczak,01/10/91,Déf.,29821
+Saint-Étienne (ASSE) ,38,,Steven Leleux,S. Leleux,,Déf.,76753
+Saint-Étienne (ASSE) ,38,,Lucas Llort,L. Llort,08/06/99,Déf.,75983
+Reims ,211,30,Nicolas Penneteau,N. Penneteau,28/02/81,Gar.,2873
+Reims ,211,1,Predrag Rajkovic,P. Rajkovic,31/10/95,Gar.,50247
+Reims ,211,5,Yunis Abdelhamid,Y. Abdelhamid,28/09/87,Déf.,44579
+Reims ,211,4,Maxime Busi,M. Busi,14/10/99,Déf.,69475
+Reims ,211,,Ibrahim Diakité,I. Diakité,31/10/03,Déf.,90675
+Reims ,211,2,Wout Faes,W. Faes,03/04/98,Déf.,59812
+Reims ,211,32,Thomas Foket,T. Foket,25/09/94,Déf.,46078
+Reims ,211,6,Andreaw Gravillon,A. Gravillon,08/02/98,Déf.,58671
+Reims ,211,3,Ghislain Konan,G. Konan,27/12/95,Déf.,62090
+Reims ,211,28,Bradley Locko,B. Locko,06/05/02,Déf.,81581
+Reims ,211,29,Moustapha Mbow,M. Mbow,08/03/00,Déf.,88602
+Nice ,46,16,Teddy Boulhendi,T. Boulhendi,09/04/01,Gar.,71043
+Nice ,46,1,Marcin Bulka,M. Bulka,04/10/99,Gar.,65095
+Nice ,46,,Ange Ahoussou,A. Ahoussou,22/12/03,Déf.,93959
+Nice ,46,12,Jordan Amavi,J. Amavi,09/03/94,Déf.,50469
+Nice ,46,20,Youcef Atal,Y. Atal,17/05/96,Déf.,65925
+Nice ,46,26,Melvin Bard,M. Bard,06/11/00,Déf.,66131
+Nice ,46,,Noah Crétier,N. Crétier,14/11/01,Déf.,75179
+Nice ,46,5,Flavius Daniliuc,F. Daniliuc,27/04/01,Déf.,82013
+Nice ,46,4,Dante,Dante,18/10/83,Déf.,20255
+Nice ,46,23,Jordan Mvula Lotomba,J. Lotomba,29/09/98,Déf.,59612
+Nice ,46,,Antoine Mendy,A. Mendy,27/05/04,Déf.,87417
+Paris-SG (PSG) ,26,8,Leandro Paredes,L. Paredes,29/06/94,Mil.,47797
+Paris-SG (PSG) ,26,15,Danilo Pereira,D. Pereira,09/09/91,Mil.,41511
+Paris-SG (PSG) ,26,34,Xavi Simons,X. Simons,21/04/03,Mil.,76045
+Paris-SG (PSG) ,26,6,Marco Verratti,M. Verratti,05/11/92,Mil.,45183
+Paris-SG (PSG) ,26,18,Georginio Wijnaldum,G. Wijnaldum,11/11/90,Mil.,255000000000000000000025727
+Paris-SG (PSG) ,26,9,Mauro Icardi,M. Icardi,19/02/93,Att.,46869
+Paris-SG (PSG) ,26,7,Kylian Mbappé,K. Mbappé,20/12/98,Att.,58221
+Paris-SG (PSG) ,26,30,Lionel Messi,L. Messi,24/06/87,Att.,21740
+Paris-SG (PSG) ,26,10,Neymar,Neymar,05/02/92,Att.,39792
+Rennes ,14,11,Jérémy Doku,J. Doku,27/05/02,Att.,71200
+Rennes ,14,,Metehan Güçlü,M. Güçlü,02/04/99,Att.,62669
+Rennes ,14,9,Serhou Guirassy,S. Guirassy,12/03/96,Att.,51662
+Rennes ,14,,Junior Kadile,J. Kadile,16/12/02,Att.,82658
+Rennes ,14,24,Gaëtan Laborde,G. Laborde,03/05/94,Att.,42261
+Rennes ,14,10,Kamaldeen Sulemana,K. Sulemana,15/02/02,Att.,89824
+Rennes ,14,17,Loum Tchaouna,L. Tchaouna,08/09/03,Att.,88826
+Rennes ,14,39,Mathys Tel,M. Tel,27/04/05,Att.,91048
+Rennes ,14,7,Martin Terrier,M. Terrier,04/03/97,Att.,60487
+Montpellier ,17,21,Sepe Elye Wahi,S. Wahi,02/01/03,Mil.,77123
+Montpellier ,17,,Adil Ben Achour,A. Ben Achour,01/02/02,Att.,83224
+Montpellier ,17,9,Valère Germain,V. Germain,17/04/90,Att.,20221
+Montpellier ,17,23,Nicholas Gioacchini,N. Gioacchini,25/07/00,Att.,77590
+Montpellier ,17,20,Yanis Guermouche,Y. Guermouche,15/04/01,Att.,77942
+Montpellier ,17,28,Béni Makouana,B. Makouana,28/09/02,Att.,84457
+Montpellier ,17,10,Stephy Mavididi,S. Mavididi,31/05/98,Att.,61920
+Troyes ,30,5,Tristan Dingomé,T. Dingomé,17/02/91,Mil.,36636
+Troyes ,30,,Bachir Diop,B. Diop,21/08/02,Mil.,94156
+Troyes ,30,27,Brandon Domingues,B. Domingues,06/06/00,Mil.,82663
+Troyes ,30,,Ryan Fage,R. Fage,31/10/03,Mil.,86142
+Troyes ,30,6,Rominigue Kouamé N'Guessan,R. Kouamé. . . ,17/12/96,Mil.,60749
+Troyes ,30,,Eden Massouema,E. Massouema,29/06/97,Mil.,60018
+Troyes ,30,,Derek Mazou Sacko,D. Mazou Sacko,06/10/04,Mil.,90645
+Troyes ,30,31,Metinho,Metinho,23/04/03,Mil.,87695
+Troyes ,30,,Anas Namri,A. Namri,12/11/01,Mil.,94157
+Troyes ,30,20,Renaud Ripart,R. Ripart,14/03/93,Mil.,44013
+Saint-Étienne (ASSE) ,38,27,Yvann Maçon,Y. Maçon,01/10/98,Déf.,68128
+Saint-Étienne (ASSE) ,38,,Eliaquim Mangala,E. Mangala,13/02/91,Déf.,32123
+Saint-Étienne (ASSE) ,38,2,Harold Moukoudi,H. Moukoudi,27/11/97,Déf.,57075
+Saint-Étienne (ASSE) ,38,3,Mickael Nadé,M. Nadé,04/03/99,Déf.,63126
+Saint-Étienne (ASSE) ,38,31,Bryan Nokoue,B. Nokoue,23/05/02,Déf.,71399
+Saint-Étienne (ASSE) ,38,11,Gabriel Silva,G. Silva,13/05/91,Déf.,44649
+Saint-Étienne (ASSE) ,38,22,Nelson Alpha Sissoko,N. Sissoko,07/03/97,Déf.,65769
+Saint-Étienne (ASSE) ,38,5,Saïdou Sow,S. Sow,04/07/02,Déf.,82597
+Saint-Étienne (ASSE) ,38,13,Miguel Trauco,M. Trauco,25/08/92,Déf.,53224
+Saint-Étienne (ASSE) ,38,,Marvin Tshibuabua,M. Tshibuabua,08/01/02,Déf.,70291
+Reims ,211,35,Enzo Valentim,E. Valentim,11/09/00,Déf.,68125
+Reims ,211,28,Anthony Weber,A. Weber,11/06/87,Déf.,25676
+Reims ,211,35,Martin Adeline,M. Adeline,02/12/03,Mil.,83568
+Reims ,211,14,Valon Berisha,V. Berisha,07/02/93,Mil.,45639
+Reims ,211,,Jens Cajuste,J. Cajuste,10/08/99,Mil.,83709
+Reims ,211,23,Moreto Cassama,M. Cassama,16/02/98,Mil.,72008
+Reims ,211,,Noa Cervantes,N. Cervantes,16/04/03,Mil.,83203
+Reims ,211,34,Kamory Doumbia,K. Doumbia,18/02/03,Mil.,92758
+Reims ,211,25,Moussa Doumbia,M. Doumbia,15/08/94,Mil.,60390
+Reims ,211,20,Ilan Kais Kebbal,I. Kebbal,10/07/98,Mil.,41060
+Nice ,46,,Théo Pionnier-Bertrand,T. Pionnier-Ber. . . ,21/01/02,Déf.,83919
+Nice ,46,25,Jean-Clair Todibo,J. Todibo,30/12/99,Déf.,69763
+Nice ,46,,Danilo Barbosa,D. Barbosa,28/02/96,Mil.,53807
+Nice ,46,28,Hicham Boudaoui,H. Boudaoui,23/09/99,Mil.,75538
+Nice ,46,,Soudeysse Kari,S. Kari,07/02/02,Mil.,75360
+Nice ,46,18,Mario Lemina,M. Lemina,01/09/93,Mil.,39604
+Nice ,46,8,Pablo Rosario,P. Rosario,07/01/97,Mil.,61748
+Nice ,46,6,Morgan Schneiderlin,M. Schneiderlin,08/11/89,Mil.,25862
+Nice ,46,33,Justin Smith,J. Smith,04/02/03,Mil.,91006
+Nice ,46,19,Khephren Thuram,K. Thuram,26/03/01,Mil.,70135
+Paris-SG (PSG) ,26,,Sekou Yansané,S. Yansané,28/04/03,Att.,91762
+Monaco ,25,40,Yann Liénard,Y. Liénard,16/03/03,Gar.,83968
+Troyes ,30,26,Patrick Roberts,P. Roberts,05/02/97,Mil.,52690
+Troyes ,30,11,Gerson Rodrigues,G. Rodrigues,20/06/95,Mil.,62843
+Troyes ,30,,Lassine Soumaoro,L. Soumaoro,19/12/02,Mil.,94280
+Troyes ,30,10,Florian Tardieu,F. Tardieu,22/04/92,Mil.,45569
+Troyes ,30,25,Mama Baldé,M. Baldé,06/11/95,Att.,64000
+Troyes ,30,34,Mamadou Camara,M. Camara,07/02/01,Att.,86139
+Troyes ,30,28,Nassim Chadli,N. Chadli,28/07/01,Att.,72137
+Troyes ,30,,Alexis Lefebvre,A. Lefebvre,21/05/03,Att.,86141
+Troyes ,30,12,Lebo Mothiba,L. Mothiba,28/01/96,Att.,55681
+Troyes ,30,9,Hyun-jun Suk,H. Suk,29/06/91,Att.,35942
+Saint-Étienne (ASSE) ,38,17,Adil Aouchiche,A. Aouchiche,15/07/02,Mil.,75902
+Saint-Étienne (ASSE) ,38,,Louka Aymar,L. Aymar,25/01/00,Mil.,88831
+Saint-Étienne (ASSE) ,38,15,Bilal Benkhedim,B. Benkhedim,20/04/01,Mil.,68335
+Saint-Étienne (ASSE) ,38,7,Ryad Boudebouz,R. Boudebouz,19/02/90,Mil.,255000000000000000000025406
+Saint-Étienne (ASSE) ,38,8,Mahdi Camara,M. Camara,30/06/98,Mil.,66694
+Saint-Étienne (ASSE) ,38,25,Assane Diousse,A. Diousse,20/09/97,Mil.,55932
+Saint-Étienne (ASSE) ,38,,Baptiste Gabard,B. Gabard,28/01/00,Mil.,77125
+Saint-Étienne (ASSE) ,38,36,Lamine Ghezali,L. Ghezali,06/07/99,Mil.,63036
+Saint-Étienne (ASSE) ,38,6,Lucas Gourna-Douath,L. Gourna-Douath,05/08/03,Mil.,78366
+Saint-Étienne (ASSE) ,38,21,Romain Hamouma,R. Hamouma,29/03/87,Mil.,26057
+Reims ,211,26,Dion Lopy,D. Lopy,02/02/02,Mil.,84009
+Reims ,211,21,Azor Matusiwa,A. Matusiwa,28/04/98,Mil.,68120
+Reims ,211,15,Marshall Munetsi,M. Munetsi,22/06/96,Mil.,75594
+Reims ,211,,Moïse Sakava,M. Sakava,26/12/00,Mil.,75192
+Reims ,211,33,Sambou Sissoko,S. Sissoko,27/04/99,Mil.,64659
+Reims ,211,19,Mitchell Van Bergen,M. Van Bergen,27/08/99,Mil.,58598
+Reims ,211,10,Arber Zeneli,A. Zeneli,25/02/95,Mil.,58834
+Reims ,211,17,Anastasios Donis,A. Donis,29/08/96,Att.,58053
+Reims ,211,22,Hugo Ekitike,H. Ekitike,20/06/02,Att.,76750
+Reims ,211,12,Alexis Flips,A. Flips,18/01/00,Att.,63176
+Reims ,211,18,Fraser Hornby,F. Hornby,13/09/99,Att.,66241
+Nice ,46,,Paul Wade,P. Wade,17/04/00,Mil.,67821
+Nice ,46,10,Alexis Claude-Maurice,A. Claude-Maurice,06/06/98,Att.,56229
+Nice ,46,7,Andy Delort,A. Delort,09/10/91,Att.,34031
+Nice ,46,9,Kasper Dolberg,K. Dolberg,06/10/97,Att.,59821
+Nice ,46,11,Amine Gouiri,A. Gouiri,16/02/00,Att.,60094
+Nice ,46,24,Evann Guessand,E. Guessand,01/07/01,Att.,69899
+Nice ,46,21,Justin Kluivert,J. Kluivert,05/05/99,Att.,62101
+Nice ,46,,Alexandre Parsemain,A. Parsemain,17/05/02,Att.,85111
+Nice ,46,,Ihsan Sacko,I. Sacko,19/07/97,Att.,58805
+Nice ,46,,Ayodeji Sotona,A. Sotona,07/12/02,Att.,83934
+Monaco ,25,1,Radoslaw Majecki,R. Majecki,16/11/99,Gar.,61525
+Monaco ,25,30,Vito Mannone,V. Mannone,02/03/88,Gar.,28734
+Monaco ,25,16,Alexander Nübel,A. Nübel,30/09/96,Gar.,53684
+Monaco ,25,26,Ruben Aguilar,R. Aguilar,26/04/93,Déf.,42268
+Monaco ,25,5,Benoît Badiashile,B. Badiashile,26/03/01,Déf.,68184
+Monaco ,25,6,Axel Disasi,A. Disasi,11/03/98,Déf.,58382
+Monaco ,25,,Fouad El Maach,F. El Maach,02/01/01,Déf.,82961
+Monaco ,25,15,Jean Harisson Marcelin,J. Marcelin,12/02/00,Déf.,66393
+Monaco ,25,3,Guillermo Maripan,G. Maripan,06/05/94,Déf.,62365
+Monaco ,25,34,Chrislain Matsima,C. Matsima,15/05/02,Déf.,76817
+Metz ,20,40,Ousmane Ba,O. Ba,06/06/02,Gar.,83686
+Marseille (OM) ,6,16,Pau Lopez,P. Lopez,13/12/94,Gar.,53546
+Lorient ,11,16,Teddy Bartouche,T. Bartouche,05/06/97,Gar.,70449
+Troyes ,30,7,Yoann Touzghar,Y. Touzghar,28/11/86,Att.,36787
+Lyon (OL) ,22,16,Malcolm Barcola,M. Barcola,14/05/99,Gar.,70649
+Saint-Étienne (ASSE) ,38,29,Aïmen Moueffek,A. Moueffek,09/04/01,Mil.,76754
+Saint-Étienne (ASSE) ,38,32,Louis Mouton,L. Mouton,03/06/02,Mil.,94146
+Saint-Étienne (ASSE) ,38,19,Yvan Neyou,Y. Neyou,03/01/97,Mil.,62627
+Saint-Étienne (ASSE) ,38,32,Mathys Saban,M. Saban,15/05/02,Mil.,78364
+Saint-Étienne (ASSE) ,38,26,Bakary Sako,B. Sako,26/04/88,Mil.,24635
+Saint-Étienne (ASSE) ,38,,Ahmed Sidibé,A. Sidibé,10/02/02,Mil.,88832
+Saint-Étienne (ASSE) ,38,28,Zaydou Youssouf,Z. Youssouf,11/07/99,Mil.,61901
+Saint-Étienne (ASSE) ,38,20,Denis Bouanga,D. Bouanga,11/11/94,Att.,54257
+Saint-Étienne (ASSE) ,38,,Edmilson Indjai Correia,E. Correia,06/06/00,Att.,78632
+Saint-Étienne (ASSE) ,38,,El Hadji Dieye,E. Dieye,01/01/02,Att.,92684
+Saint-Étienne (ASSE) ,38,10,Wahbi Khazri,W. Khazri,08/02/91,Att.,32697
+Reims ,211,27,N'Dri Philippe Koffi,N. Koffi,09/03/02,Att.,76749
+Reims ,211,11,Nathanaël Mbuku,N. Mbuku,16/03/02,Att.,71198
+Reims ,211,7,El Bilal Touré,E. Touré,03/10/01,Att.,79059
+Nice ,46,22,Calvin Stengs,C. Stengs,18/12/98,Att.,61688
+Nice ,46,,Khavarn Williams,K. Williams,12/03/03,Att.,84081
+Monaco ,25,,Yllan Okou,Y. Okou,23/12/02,Déf.,93353
+Monaco ,25,21,Strahinja Pavlovic,S. Pavlovic,24/05/01,Déf.,77400
+Monaco ,25,,Aurélien Platret,A. Platret,20/02/03,Déf.,90748
+Monaco ,25,19,Djibril Sidibé,D. Sidibé,29/07/92,Déf.,36033
+Monaco ,25,,Louis Torres,L. Torres,23/04/01,Déf.,82960
+Monaco ,25,2,Vanderson,Vanderson,21/06/01,Déf.,85825
+Monaco ,25,35,Maghnes Akliouche,M. Akliouche,25/02/02,Mil.,83186
+Monaco ,25,,Florian Baranik,F. Baranik,02/02/02,Mil.,93352
+Monaco ,25,,Adrien Bongiovanni,A. Bongiovanni,20/09/99,Mil.,60205
+Monaco ,25,12,Caio Henrique,Caio Henrique,31/07/97,Mil.,61422
+Monaco ,25,37,Sofiane Diop,S. Diop,09/06/00,Mil.,66880
+Metz ,20,30,Marc-Aurèle Caillard,M. Caillard,12/05/94,Gar.,41210
+Metz ,20,1,David Oberhauser,D. Oberhauser,29/11/90,Gar.,29256
+Metz ,20,16,Alexandre Oukidja,A. Oukidja,19/07/88,Gar.,23968
+Metz ,20,22,Sofiane Alakouch,S. Alakouch,29/07/98,Déf.,59217
+Metz ,20,20,Ernest Boahene,E. Boahene,06/03/00,Déf.,77139
+Metz ,20,2,Dylan Bronn,D. Bronn,19/06/95,Déf.,52740
+Metz ,20,28,Manuel Cabit,M. Cabit,03/06/93,Déf.,36979
+Metz ,20,,Fali Candé,F. Candé,24/01/98,Déf.,75000
+Metz ,20,18,Fabien Centonze,F. Centonze,16/01/96,Déf.,57081
+Metz ,20,17,Thomas Delaine,T. Delaine,24/03/92,Déf.,36715
+Metz ,20,5,Jemerson,Jemerson,24/08/92,Déf.,51912
+Marseille (OM) ,6,30,Steve Mandanda,S. Mandanda,28/03/85,Gar.,20698
+Marseille (OM) ,6,40,Manuel Nazaretian,M. Nazaretian,01/07/01,Gar.,76820
+Marseille (OM) ,6,1,Simon Ngapandouetnbu,S. Ngapandouetnbu,12/04/03,Gar.,76973
+Marseille (OM) ,6,5,Leonardo Balerdi,L. Balerdi,26/01/99,Déf.,68861
+Marseille (OM) ,6,15,Duje Caleta-Car,D. Caleta-Car,17/09/96,Déf.,55590
+Marseille (OM) ,6,,Amay Caprice,A. Caprice,21/08/04,Déf.,90756
+Marseille (OM) ,6,3,Alvaro Gonzalez,A. Gonzalez,08/01/90,Déf.,41014
+Marseille (OM) ,6,47,Joakim Kada,J. Kada,29/01/01,Déf.,70647
+Marseille (OM) ,6,,Aaron Nassur Kamardin,A. Kamardin,08/04/02,Déf.,76821
+Marseille (OM) ,6,29,Pol Lirola,P. Lirola,13/08/97,Déf.,59664
+Marseille (OM) ,6,14,Luan Peres,L. Peres,19/07/94,Déf.,68823
+Lorient ,11,40,Thomas Callens,T. Callens,06/09/98,Gar.,69470
+Lorient ,11,1,Matthieu Dreyer,M. Dreyer,20/03/89,Gar.,27338
+Lorient ,11,30,Paul Nardi,P. Nardi,18/05/94,Gar.,40639
+Lorient ,11,34,Malamine Doumbouya,M. Doumbouya,14/03/00,Déf.,82583
+Lorient ,11,5,Thomas Fontaine,T. Fontaine,08/05/91,Déf.,29621
+Lorient ,11,14,Jérôme Hergault,J. Hergault,05/04/86,Déf.,32827
+Lorient ,11,3,Moritz Jenz,M. Jenz,30/04/99,Déf.,72676
+Lorient ,11,15,Julien Laporte,J. Laporte,04/11/93,Déf.,56098
+Lorient ,11,25,Vincent Le Goff,V. Le Goff,15/10/89,Déf.,33653
+Lorient ,11,20,Samuel Loric,S. Loric,05/07/00,Déf.,9723
+Lorient ,11,17,Houboulang Mendes,H. Mendes,04/05/98,Déf.,59640
+Lille ,43,1,Ivo Grbic,I. Grbic,18/01/96,Gar.,71093
+Lyon (OL) ,22,40,Kayne Bonnevie,K. Bonnevie,,Gar.,72364
+Lyon (OL) ,22,1,Anthony Lopes,A. Lopes,01/10/90,Gar.,33459
+Lyon (OL) ,22,30,Julian Pollersbeck,J. Pollersbeck,16/08/94,Gar.,63435
+Lyon (OL) ,22,27,Jerome Boateng,J. Boateng,03/09/88,Déf.,26722
+Lyon (OL) ,22,21,Damien Da Silva,D. Da Silva,17/05/88,Déf.,25928
+Lyon (OL) ,22,5,Jason Denayer,J. Denayer,28/06/95,Déf.,53474
+Lyon (OL) ,22,,Héritier Deyonge,H. Deyonge,09/06/02,Déf.,76109
+Lyon (OL) ,22,2,Sinaly Diomandé,S. Diomandé,09/04/01,Déf.,77187
+Lyon (OL) ,22,14,Léo Dubois,L. Dubois,14/09/94,Déf.,51548
+Lyon (OL) ,22,3,Emerson,Emerson,03/08/94,Déf.,55093
+Lyon (OL) ,22,,Nicolas Fontaine,N. Fontaine,,Déf.,41085
+Saint-Étienne (ASSE) ,38,34,Yanis Lhéry,Y. Lhéry,07/05/03,Att.,87893
+Saint-Étienne (ASSE) ,38,18,Arnaud Nordin,A. Nordin,17/06/98,Att.,60902
+Saint-Étienne (ASSE) ,38,30,Maxence Rivera,M. Rivera,30/05/02,Att.,75181
+Saint-Étienne (ASSE) ,38,,Abdoulaye Sidibé,A. Sidibé,09/02/02,Att.,71181
+Saint-Étienne (ASSE) ,38,,Sada Thioub,S. Thioub,01/06/95,Att.,50548
+Lens ,9,,Valentin Belon,V. Belon,13/06/95,Gar.,53816
+Clermont,242,1,Arthur Desmas,A. Desmas,07/04/94,Gar.,56595
+Monaco ,25,4,Francesc Fabregas,F. Fabregas,04/05/87,Mil.,21076
+Monaco ,25,22,Youssouf Fofana,Y. Fofana,10/01/99,Mil.,69798
+Monaco ,25,17,Alexandre Golovine,A. Golovine,30/05/96,Mil.,56524
+Monaco ,25,14,Ismail Jakobs,I. Jakobs,17/08/99,Mil.,66702
+Monaco ,25,11,Jean Lucas,Jean Lucas,22/06/98,Mil.,72929
+Monaco ,25,41,Félix Lemarechal,F. Lemarechal,07/08/03,Mil.,90544
+Monaco ,25,,Soungoutou Magassa,S. Magassa,08/10/03,Mil.,91676
+Monaco ,25,36,Eliot Matazo,E. Matazo,15/02/02,Mil.,77170
+Monaco ,25,28,Judilson Pelé,J. Pelé,29/09/91,Mil.,40096
+Monaco ,25,,Tiago Miguel Hora Ribeiro,T. Ribeiro,14/03/02,Mil.,90747
+Monaco ,25,8,Aurélien Tchouaméni,A. Tchouaméni,27/01/00,Mil.,66676
+Metz ,20,27,Jean-Armel Kana-Biyik,J. Kana-Biyik,03/07/89,Déf.,28316
+Metz ,20,23,Boubacar Kouyaté,B. Kouyaté,15/04/97,Déf.,71973
+Metz ,20,29,Lenny Lacroix,L. Lacroix,06/02/03,Déf.,78681
+Metz ,20,25,William Mikelbrencis,W. Mikelbrencis,25/02/04,Déf.,86590
+Metz ,20,4,Sikou Niakaté,S. Niakaté,10/07/99,Déf.,62910
+Metz ,20,3,Matthieu Udol,M. Udol,20/03/96,Déf.,54324
+Metz ,20,,Noah Zilliox,N. Zilliox,17/03/03,Déf.,90697
+Metz ,20,32,Ibrahim Amadou,I. Amadou,06/04/93,Mil.,41205
+Metz ,20,21,Amine Bassi,A. Bassi,27/11/97,Mil.,63070
+Metz ,20,10,Farid Boulaya,F. Boulaya,25/02/93,Mil.,45499
+Metz ,20,31,Danley Jean-Jacques,D. Jean-Jacques,20/05/00,Mil.,92529
+Marseille (OM) ,6,2,William Saliba,W. Saliba,24/03/01,Déf.,68333
+Marseille (OM) ,6,32,Salim Ben Seghir,S. Ben Seghir,24/02/03,Mil.,83157
+Marseille (OM) ,6,38,Ugo Bertelli,U. Bertelli,15/07/03,Mil.,78687
+Marseille (OM) ,6,37,Esey Gebreyesus,E. Gebreyesus,23/01/04,Mil.,90609
+Marseille (OM) ,6,8,Gerson,Gerson,20/05/97,Mil.,60412
+Marseille (OM) ,6,6,Mattéo Guendouzi,M. Guendouzi,14/04/99,Mil.,59173
+Marseille (OM) ,6,22,Pape Gueye,P. Gueye,24/01/99,Mil.,63063
+Marseille (OM) ,6,7,Amine Harit,A. Harit,18/06/97,Mil.,56264
+Marseille (OM) ,6,4,Boubacar Kamara,B. Kamara,23/11/99,Mil.,59028
+Marseille (OM) ,6,23,Sead Kolasinac,S. Kolasinac,20/06/93,Mil.,47468
+Marseille (OM) ,6,39,Bilal Nadir,B. Nadir,28/11/03,Mil.,88829
+Brest ,267,40,Marco Bizot,M. Bizot,10/03/91,Gar.,38096
+Lorient ,11,21,Jérémy Morel,J. Morel,02/04/84,Déf.,18902
+Lorient ,11,4,Loris Mouyokolo,L. Mouyokolo,22/05/01,Déf.,71045
+Lorient ,11,36,Léo Pétrot,L. Pétrot,15/04/97,Déf.,58594
+Lorient ,11,2,Igor Silva,I. Silva,21/08/96,Déf.,57877
+Lorient ,11,6,Laurent Abergel,L. Abergel,01/02/93,Mil.,48110
+Lorient ,11,11,Quentin Boisgard,Q. Boisgard,17/03/97,Mil.,58582
+Lorient ,11,31,Redwan Bourlès,R. Bourlès,02/01/03,Mil.,89512
+Lorient ,11,8,Bonke Innocent,B. Innocent,20/01/96,Mil.,70667
+Lorient ,11,,Ronny Labonne,R. Labonne,14/09/97,Mil.,92982
+Lorient ,11,28,Armand Laurienté,A. Laurienté,04/12/98,Mil.,66879
+Lorient ,11,37,Théo Le Bris,T. Le Bris,01/10/02,Mil.,77183
+Lille ,43,16,Adam Jakubech,A. Jakubech,02/01/97,Gar.,62362
+Lille ,43,,Orestis Karnezis,O. Karnezis,11/07/85,Gar.,28151
+Lille ,43,30,Léo Jardim,Léo Jardim,20/03/95,Gar.,69885
+Lille ,43,40,Jules Raux,J. Raux,29/08/03,Gar.,90442
+Lille ,43,,Saad Agouzoul,S. Agouzoul,10/08/97,Déf.,75851
+Lille ,43,4,Sven Botman,S. Botman,12/01/00,Déf.,76304
+Lille ,43,,Ismail Bouleghcha,I. Bouleghcha,09/12/02,Déf.,85667
+Lille ,43,29,Domagoj Bradaric,D. Bradaric,10/12/99,Déf.,71095
+Lille ,43,2,Mehmet Zeki Çelik,M. Çelik,17/02/97,Déf.,68652
+Lille ,43,3,Tiago Djalo,T. Djalo,09/04/00,Déf.,76323
+Lille ,43,6,José Fonte,J. Fonte,22/12/83,Déf.,40505
+Lyon (OL) ,22,17,Malo Gusto,M. Gusto,19/05/03,Déf.,83189
+Lyon (OL) ,22,12,Henrique,Henrique,25/04/94,Déf.,73302
+Lyon (OL) ,22,34,Irvyn Lomami,I. Lomami,30/12/03,Déf.,90739
+Lyon (OL) ,22,4,Castello Lukeba,C. Lukeba,17/12/02,Déf.,83190
+Lyon (OL) ,22,,Abdoulaye Niakaté Ndiaye,A. Ndiaye,10/04/02,Déf.,54571
+Lyon (OL) ,22,,Hugo Vogel,H. Vogel,04/01/04,Déf.,92991
+Lyon (OL) ,22,8,Houssem Aouar,H. Aouar,30/06/98,Mil.,58614
+Lyon (OL) ,22,,Samuel Bossiwa Bessolo,S. Bossiwa Bessolo,,Mil.,82949
+Lyon (OL) ,22,25,Maxence Caqueret,M. Caqueret,15/02/00,Mil.,60090
+Lyon (OL) ,22,18,Rayan Cherki,R. Cherki,17/08/03,Mil.,76664
+Lyon (OL) ,22,28,Florent Da Silva,F. Da Silva,02/04/03,Mil.,78403
+Lens ,9,1,Wuilker Fariñez,W. Fariñez,15/02/98,Gar.,56515
+Lens ,9,16,Jean-Louis Leca,J. Leca,21/09/85,Gar.,21014
+Lens ,9,30,Valentino Lesieur,V. Lesieur,18/03/03,Gar.,89415
+Lens ,9,40,Yannick Pandor,Y. Pandor,01/05/01,Gar.,75071
+Lens ,9,11,Jonathan Clauss,J. Clauss,25/09/92,Déf.,58625
+Lens ,9,4,Kevin Danso,K. Danso,19/09/98,Déf.,62707
+Lens ,9,24,Jonathan Gradit,J. Gradit,24/11/92,Déf.,42256
+Lens ,9,21,Massadio Haïdara,M. Haïdara,02/12/92,Déf.,36954
+Lens ,9,,Oumar Kamara,O. Kamara,29/12/03,Déf.,84117
+Lens ,9,3,Deiver Machado,D. Machado,02/09/93,Déf.,63927
+Lens ,9,14,Facundo Medina,F. Medina,28/05/99,Déf.,73964
+Clermont,242,40,Ouparine Djoco,O. Djoco,22/04/98,Gar.,69222
+Clermont,242,16,Lucas Margueron,L. Margueron,12/02/01,Gar.,72197
+Clermont,242,17,Josué Albert,J. Albert,21/01/92,Déf.,36996
+Clermont,242,5,Jean-Claude Billong,J. Billong,28/12/93,Déf.,64816
+Clermont,242,3,Julien Boyer,J. Boyer,10/04/98,Déf.,66552
+Clermont,242,4,Cédric Hountondji,C. Hountondji,19/01/94,Déf.,50467
+Clermont,242,16,Oliver Kamdem,O. Kamdem,15/10/02,Déf.,93459
+Clermont,242,15,Arial Mendy,A. Mendy,07/11/94,Déf.,69086
+Clermont,242,12,Vital Nsimba,V. Nsimba,08/07/93,Déf.,42262
+Clermont,242,21,Florent Ogier,F. Ogier,21/03/89,Déf.,33717
+Clermont,242,23,Jérôme Phojo,J. Phojo,15/04/93,Déf.,36641
+Monaco ,25,10,Wissam Ben Yedder,W. Ben Yedder,12/08/90,Att.,35310
+Monaco ,25,9,Myron Boadu,M. Boadu,14/01/01,Att.,64351
+Monaco ,25,35,Valentin Salatiel Decarpentrie,V. Decarpentrie,06/01/02,Att.,82966
+Monaco ,25,27,Krépin Diatta,K. Diatta,25/02/99,Att.,68071
+Monaco ,25,7,Gelson Martins,G. Martins,11/05/95,Att.,56625
+Monaco ,25,31,Kevin Volland,K. Volland,30/07/92,Att.,45822
+Metz ,20,19,Habib Maïga,H. Maïga,01/01/96,Mil.,56017
+Metz ,20,33,Amadou Salif Mbengue,A. Mbengue,05/01/02,Mil.,90603
+Metz ,20,6,Kévin N'Doram,K. N'Doram,22/01/96,Mil.,52227
+Metz ,20,14,Vincent Pajot,V. Pajot,19/08/90,Mil.,33692
+Metz ,20,13,Cheikh Tidiane Sabaly,C. Sabaly,04/03/99,Mil.,69224
+Metz ,20,15,Pape Matar Sarr,P. Sarr,14/09/02,Mil.,84404
+Metz ,20,12,Warren Tchimbembé,W. Tchimbembé,21/04/98,Mil.,69081
+Metz ,20,8,Boubacar Traoré,B. Traoré,20/08/01,Mil.,77098
+Metz ,20,9,Nicolas De Préville,N. De Préville,08/01/91,Att.,33800
+Metz ,20,24,Lenny Joseph,L. Joseph,12/10/00,Att.,71053
+Metz ,20,34,Louis Mafouta,L. Mafouta,02/07/94,Att.,58777
+Bordeaux ,18,,Guerric Bernou,G. Bernou,11/05/04,Gar.,93802
+Marseille (OM) ,6,,Jonathan Pitou,J. Pitou,11/08/04,Mil.,90758
+Marseille (OM) ,6,,Jores Rahou,J. Rahou,02/02/03,Mil.,77938
+Marseille (OM) ,6,21,Valentin Rongier,V. Rongier,07/12/94,Mil.,50844
+Marseille (OM) ,6,34,Paolo Sciortino,P. Sciortino,05/11/03,Mil.,78361
+Marseille (OM) ,6,41,Cheick Souaré,C. Souaré,03/09/02,Mil.,77937
+Marseille (OM) ,6,26,Oussama Targhalline,O. Targhalline,20/05/02,Mil.,84107
+Marseille (OM) ,6,31,Franco Tongya,F. Tongya,13/03/02,Mil.,86317
+Marseille (OM) ,6,13,Cédric Bakambu,C. Bakambu,11/04/91,Att.,32971
+Marseille (OM) ,6,20,Konrad De La Fuente,K. De La Fuente,16/07/01,Att.,75440
+Marseille (OM) ,6,12,Ahmadou Bamba Dieng,A. Dieng,23/03/00,Att.,84106
+Marseille (OM) ,6,11,Luis Henrique,Luis Henrique,14/12/01,Att.,81333
+Brest ,267,16,Sébastien Cibois,S. Cibois,02/03/98,Gar.,68392
+Brest ,267,30,Grégoire Coudert,G. Coudert,03/04/99,Gar.,63841
+Brest ,267,1,Gautier Larsonneur,G. Larsonneur,23/02/97,Gar.,57831
+Brest ,267,17,Dénys Bain,D. Bain,02/07/93,Déf.,41218
+Brest ,267,3,Lilian Brassier,L. Brassier,02/11/99,Déf.,63114
+Brest ,267,5,Brendan Chardonnet,B. Chardonnet,22/12/94,Déf.,49347
+Brest ,267,2,Jean-Kevin Duverne,J. Duverne,12/07/97,Déf.,55142
+Brest ,267,22,Julien Faussurier,J. Faussurier,14/01/87,Déf.,29186
+Brest ,267,23,Christophe Hérelle,C. Hérelle,22/08/92,Déf.,36982
+Brest ,267,18,Ronaël Pierre-Gabriel,R. Pierre-Gabriel,13/06/98,Déf.,58425
+Lorient ,11,10,Enzo Le Fée,E. Le Fée,03/02/00,Mil.,68093
+Lorient ,11,18,Fabien Lemoine,F. Lemoine,16/03/87,Mil.,27098
+Lorient ,11,,Bamo Meïté,B. Meïté,20/06/01,Mil.,83783
+Lorient ,11,23,Thomas Monconduit,T. Monconduit,10/02/91,Mil.,37657
+Lorient ,11,34,Baptiste Mouazan,B. Mouazan,27/09/01,Mil.,74528
+Lorient ,11,7,Stéphane Diarra,S. Diarra,09/12/98,Att.,59114
+Lorient ,11,13,Terem Moffi,T. Moffi,25/05/99,Att.,79353
+Lorient ,11,38,Dango Ouattara,D. Ouattara,11/02/02,Att.,87013
+Lorient ,11,33,Sambou Soumano,S. Soumano,13/01/01,Att.,82864
+Lille ,43,34,Nassim Innocenti,N. Innocenti,19/02/02,Déf.,82113
+Lille ,43,28,Reinildo Mandava,R. Mandava,21/01/94,Déf.,69682
+Lille ,43,26,Jérémy Pied,J. Pied,23/02/89,Déf.,29565
+Lille ,43,21,Benjamin André,B. André,03/08/90,Mil.,29477
+Lille ,43,14,Rocco Ascone,R. Ascone,12/09/03,Mil.,86567
+Lille ,43,7,Jonathan Bamba,J. Bamba,26/03/96,Mil.,49844
+Lille ,43,,Capita,Capita,10/01/02,Mil.,83797
+Lille ,43,20,Angel Gomes,A. Gomes,31/08/00,Mil.,63185
+Lille ,43,34,Exaucé Mpembele Boula,E. Mpembele Boula,15/05/02,Mil.,77131
+Lille ,43,27,Cheikh Niasse,C. Niasse,19/01/00,Mil.,62673
+Lyon (OL) ,22,24,Pape Cheikh Diop,P. Diop,08/08/97,Mil.,58561
+Lyon (OL) ,22,39,Bruno Guimaraes,B. Guimaraes,16/11/97,Mil.,68534
+Lyon (OL) ,22,,Célestino Iala,C. Iala,03/01/03,Mil.,92329
+Lyon (OL) ,22,23,Thiago Mendes,T. Mendes,15/03/92,Mil.,63445
+Lyon (OL) ,22,,Ousseynou Ndiaye,O. Ndiaye,24/11/98,Mil.,64199
+Lyon (OL) ,22,,Gael Nsombi,G. Nsombi,25/01/03,Mil.,82950
+Lyon (OL) ,22,10,Lucas Paqueta,L. Paqueta,27/08/97,Mil.,70628
+Lyon (OL) ,22,22,Jeff Reine-Adélaïde,J. Reine-Adélaïde,17/01/98,Mil.,55898
+Lyon (OL) ,22,29,Xherdan Shaqiri,X. Shaqiri,10/10/91,Mil.,34864
+Lyon (OL) ,22,32,Titouan Thomas,T. Thomas,,Mil.,69895
+Lens ,9,,Malcom Musquet,M. Musquet,15/04/02,Déf.,90678
+Lens ,9,,Brayann Pereira,B. Pereira,21/05/03,Déf.,93566
+Lens ,9,,Cheikh Cory Sene,C. Sene,20/04/01,Déf.,76095
+Lens ,9,5,Christopher Maurice Wooh,C. Wooh,18/09/01,Déf.,71171
+Lens ,9,,Yacouba Barry,Y. Barry,25/11/02,Mil.,93956
+Lens ,9,6,Patrick Berg,P. Berg,24/11/97,Mil.,83255
+Lens ,9,18,Yannick Cahuzac,Y. Cahuzac,18/01/85,Mil.,10000000000000000000012238
+Lens ,9,28,Cheick Doucouré,C. Doucouré,08/01/00,Mil.,69550
+Lens ,9,8,Seko Fofana,S. Fofana,07/05/95,Mil.,46821
+Lens ,9,29,Przemyslaw Frankowski,P. Frankowski,12/04/95,Mil.,67830
+Lens ,9,10,Gaël Kakuta,G. Kakuta,21/06/91,Mil.,32442
+Clermont,242,36,Alidu Seidu,A. Seidu,04/06/00,Déf.,82650
+Clermont,242,20,Akim Zedadka,A. Zedadka,30/05/95,Déf.,52997
+Clermont,242,19,Salis Abdul Samed,S. Abdul Samed,26/03/00,Mil.,76116
+Clermont,242,22,Oriol Busquets,O. Busquets,20/01/99,Mil.,65997
+Clermont,242,28,Yadaly Diaby,Y. Diaby,09/08/00,Mil.,93026
+Clermont,242,24,Jodel Dossou,J. Dossou,17/03/92,Mil.,52522
+Clermont,242,25,Johan Gastien,J. Gastien,25/01/88,Mil.,29180
+Clermont,242,2,Fred Gnalega,F. Gnalega,08/10/01,Mil.,85765
+Clermont,242,29,Naël Jaby,N. Jaby,20/04/01,Mil.,75989
+Clermont,242,6,Saîf-Eddine Khaoui,S. Khaoui,27/04/95,Mil.,52507
+Clermont,242,7,Yohann Magnin,Y. Magnin,21/06/97,Mil.,69218
+Metz ,20,11,Opa Nguette,O. Nguette,08/07/94,Att.,43671
+Metz ,20,7,Ibrahima Niane,I. Niane,11/03/99,Att.,63509
+Metz ,20,26,Papa Ndiaga Yade,P. Yade,05/01/00,Att.,76413
+Bordeaux ,18,1,Benoît Costil,B. Costil,03/07/87,Gar.,20634
+Bordeaux ,18,,Darren Lima Semedo,D. Lima Semedo,27/04/02,Gar.,82617
+Bordeaux ,18,40,Tidiane Malbec,T. Malbec,03/11/01,Gar.,75183
+Bordeaux ,18,16,Gaëtan Poussin,G. Poussin,13/01/99,Gar.,65086
+Bordeaux ,18,30,Davy Rouyard,D. Rouyard,17/08/99,Gar.,69809
+Bordeaux ,18,,Mohamed Aggoun,M. Aggoun,21/02/02,Déf.,93801
+Bordeaux ,18,,Tijany Atallah,T. Atallah,12/03/03,Déf.,93800
+Bordeaux ,18,24,Paul Baysse,P. Baysse,18/05/88,Déf.,23369
+Bordeaux ,18,,Malcom Bokele Mputu,M. Bokele Mputu,12/02/00,Déf.,87897
+Bordeaux ,18,,Aïssa Boudechicha,A. Boudechicha,13/04/00,Déf.,77150
+Bordeaux ,18,,Jacques Ekomie,J. Ekomie,,Déf.,93805
+Marseille (OM) ,6,9,Arkadiusz Milik,A. Milik,28/02/94,Att.,47714
+Marseille (OM) ,6,10,Dimitri Payet,D. Payet,29/03/87,Att.,24070
+Marseille (OM) ,6,17,Cengiz Ünder,C. Ünder,14/07/97,Att.,61274
+Brest ,267,33,Noé Sow,N. Sow,18/12/98,Déf.,82765
+Brest ,267,20,Jere Uronen,J. Uronen,13/07/94,Déf.,46694
+Brest ,267,10,Lucien Agoumé,L. Agoumé,09/02/02,Mil.,70963
+Brest ,267,7,Haris Belkebla,H. Belkebla,28/01/94,Mil.,35730
+Brest ,267,,Killian Benvindo,K. Benvindo,26/04/01,Mil.,69870
+Brest ,267,21,Romain Faivre,R. Faivre,14/07/98,Mil.,64703
+Brest ,267,8,Paul Lasne,P. Lasne,16/01/89,Mil.,255000000000000000000025947
+Brest ,267,27,Hugo Magnetti,H. Magnetti,30/05/98,Mil.,61873
+Brest ,267,28,Hianga'a Mbock,H. Mbock,28/12/99,Mil.,75905
+Brest ,267,29,Youssouph Mamadou Badji,Y. Badji,20/12/01,Att.,79606
+Brest ,267,34,Axel Camblan,A. Camblan,18/06/03,Att.,91102
+Lille ,43,24,Amadou Onana,A. Onana,16/08/01,Mil.,90608
+Lille ,43,,Ugo Raghouber,U. Raghouber,13/07/03,Mil.,93846
+Lille ,43,10,Renato Sanches,R. Sanches,18/08/97,Mil.,58281
+Lille ,43,8,Xeka,Xeka,10/11/94,Mil.,61723
+Lille ,43,,Arton Zekaj,A. Zekaj,16/04/00,Mil.,69813
+Lille ,43,11,Hatem Ben Arfa,H. Ben Arfa,07/03/87,Att.,20671
+Lille ,43,9,Jonathan David,J. David,14/01/00,Att.,68269
+Lille ,43,5,Gabriel Gudmundsson,G. Gudmundsson,29/04/99,Att.,76266
+Lille ,43,,José Bica,José Bica,16/06/03,Att.,86995
+Lille ,43,19,Isaac Lihadji,I. Lihadji,10/04/02,Att.,76446
+Lille ,43,,Fadiga Ouattara,F. Ouattara,18/11/01,Att.,63402
+Lyon (OL) ,22,45,Bradley Barcola,B. Barcola,,Att.,83812
+Lyon (OL) ,22,9,Moussa Dembélé,M. Dembélé,12/07/96,Att.,51889
+Lyon (OL) ,22,11,Tino Kadewere,T. Kadewere,05/01/96,Att.,69206
+Lyon (OL) ,22,19,Habib Keita,H. Keita,05/02/02,Att.,84013
+Lyon (OL) ,22,,Sekou Lega,S. Lega,21/01/03,Att.,87221
+Lyon (OL) ,22,31,Lenny Pintor,L. Pintor,05/08/00,Att.,66392
+Lyon (OL) ,22,20,Islam Slimani,I. Slimani,18/06/88,Att.,50973
+Lyon (OL) ,22,7,Karl Toko Ekambi,K. Toko Ekambi,14/09/92,Att.,41100
+Lens ,9,,Adrien Louveau,A. Louveau,01/02/00,Mil.,74530
+Lens ,9,20,David Pereira Da Costa,D. Pereira Da. . . ,05/01/01,Mil.,71956
+Lens ,9,27,Samba Sow,S. Sow,29/04/89,Mil.,18955
+Lens ,9,20,Jonathan Varane,J. Varane,09/09/01,Mil.,83565
+Lens ,9,33,Ibrahima Baldé,I. Baldé,17/01/03,Att.,83030
+Lens ,9,9,Ignatius Ganago,I. Ganago,16/02/99,Att.,65074
+Lens ,9,25,Corentin Jean,C. Jean,15/07/95,Att.,46750
+Lens ,9,15,Arnaud Kalimuendo,A. Kalimuendo,20/01/02,Att.,77518
+Lens ,9,,Jules Keita,J. Keita,20/07/98,Att.,69537
+Lens ,9,22,Wesley Saïd,W. Saïd,19/04/95,Att.,48416
+Clermont,242,34,Aïman Maurer,A. Maurer,25/09/04,Mil.,92450
+Clermont,242,11,Jim Allevinah,J. Allevinah,27/02/95,Att.,75867
+Clermont,242,11,Mohamed Bayo,M. Bayo,04/06/98,Att.,66093
+Clermont,242,8,Jason Berthomier,J. Berthomier,06/01/90,Att.,32340
+Clermont,242,,Mathis Clairicia,M. Clairicia,30/08/02,Att.,93460
+Clermont,242,10,Lucas Da Cunha,L. Da Cunha,09/06/01,Att.,68264
+Clermont,242,26,Pierre-Yves Hamel,P. Hamel,03/02/94,Att.,57104
+Clermont,242,,Karim Mohamed,K. Mohamed,02/04/01,Att.,92449
+Clermont,242,18,Elbasan Rashani,E. Rashani,09/05/93,Att.,61091
+Clermont,242,9,Jordan Tell,J. Tell,10/06/97,Att.,62921
+Bordeaux ,18,2,Stian Gregersen,S. Gregersen,17/05/95,Déf.,83736
+Bordeaux ,18,6,Laurent Koscielny,L. Koscielny,10/09/85,Déf.,21840
+Bordeaux ,18,25,Enock Kwateng,E. Kwateng,09/04/97,Déf.,55438
+Bordeaux ,18,,Johaneko Louis-Jean,J. Louis-Jean,28/06/04,Déf.,93799
+Bordeaux ,18,12,Ricardo Mangas,R. Mangas,19/03/98,Déf.,64007
+Bordeaux ,18,3,Abdel Medioub,A. Medioub,28/08/97,Déf.,82618
+Bordeaux ,18,14,Gideon Mensah,G. Mensah,18/07/98,Déf.,65406
+Bordeaux ,18,4,Edson Mexer,E. Mexer,08/09/88,Déf.,35518
+Bordeaux ,18,,Yaël Mouanga,Y. Mouanga,23/07/05,Déf.,93803
+Bordeaux ,18,22,Timothée Pembélé,T. Pembélé,09/09/02,Déf.,82170
+Brest ,267,14,Irvin Cardona,I. Cardona,08/08/97,Att.,58962
+Brest ,267,25,Romain Del Castillo,R. Del Castillo,29/03/96,Att.,52568
+Brest ,267,9,Franck Honorat,F. Honorat,11/08/96,Att.,50545
+Brest ,267,26,Jérémy Le Douaron,J. Le Douaron,21/04/98,Att.,66883
+Brest ,267,15,Steve Mounié,S. Mounié,29/09/94,Att.,50834
+Brest ,267,19,Rafiki Saïd,R. Saïd,15/03/00,Att.,82626
+Brest ,267,11,Martin Satriano,M. Satriano,20/02/01,Att.,84400
+Lille ,43,,Mamadou Usman Simbakoli,M. Simbakoli,19/04/01,Att.,82112
+Lille ,43,22,Timothy Weah,T. Weah,22/02/00,Att.,65742
+Lille ,43,17,Burak Yilmaz,B. Yilmaz,15/07/85,Att.,25807
+Lille ,43,23,Edon Zhegrova,E. Zhegrova,31/03/99,Att.,63887
+Lens ,9,7,Florian Sotoca,F. Sotoca,25/10/90,Att.,50563
+Lens ,9,33,Mohamed Cissé,M. Cissé,26/04/01,Inc.,90658
+Bordeaux ,18,19,Yacine Adli,Y. Adli,29/07/00,Mil.,66128
+Bordeaux ,18,,Emeric Depussay,E. Depussay,27/08/01,Mil.,72133
+Bordeaux ,18,13,Fransergio,Fransergio,18/10/90,Mil.,52475
+Bordeaux ,18,27,Tom Lacoux,T. Lacoux,25/01/02,Mil.,85547
+Bordeaux ,18,8,Jean Onana,J. Onana,08/01/00,Mil.,79468
+Bordeaux ,18,,Rudy Orea,R. Orea,04/06/02,Mil.,93804
+Bordeaux ,18,5,Otavio,Otavio,04/05/94,Mil.,58019
+Bordeaux ,18,,Johab Pascal,J. Pascal,10/03/00,Mil.,74994
+Bordeaux ,18,20,Issouf Sissokho,I. Sissokho,30/01/02,Mil.,82620
+Bordeaux ,18,17,Mehdi Zerkane,M. Zerkane,15/07/99,Mil.,66204
+Bordeaux ,18,32,Dilane Bakwa,D. Bakwa,26/08/02,Att.,72044
+Bordeaux ,18,7,Jimmy Briand,J. Briand,02/08/85,Att.,18966
+Bordeaux ,18,37,Logan Delaurier-Chaubet,L. Delaurier-Ch. . . ,22/04/02,Att.,82621
+Bordeaux ,18,21,Javairo Dilrosun,J. Dilrosun,22/06/98,Att.,70063
+Bordeaux ,18,29,Alberth Elis,A. Elis,12/02/96,Att.,60376
+Bordeaux ,18,18,Ui-jo Hwang,U. Hwang,28/08/92,Att.,70914
+Bordeaux ,18,9,Josh Maja,J. Maja,27/12/98,Att.,61577
+Bordeaux ,18,11,Sekou Mara,S. Mara,30/07/02,Att.,82623
+Bordeaux ,18,23,M'Baye Niang,M. Niang,19/12/94,Att.,37439
+Bordeaux ,18,,Moudja Sie Ouattara,M. Ouattara,20/05/02,Att.,82622
+Bordeaux ,18,28,Rémi Oudin,R. Oudin,18/11/96,Att.,59643
+Bordeaux ,18,31,Amadou Traoré,A. Traoré,07/03/02,Att.,70282

@@ -1,0 +1,32 @@
+{
+    "os": "macOS-10.13.6-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-01-17T15:09:54.423529",
+    "startedAt": "2022-01-17T15:09:49.153149",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9043",
+        "--control=9041",
+        "--hb=9040",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"c35b9e1f-8586-4a3a-bdc8-d54e3ab1842a\"",
+        "--shell=9042",
+        "--transport=\"tcp\"",
+        "--iopub=9044",
+        "--f=/var/folders/fw/vk6b0tfx7kvg_95mz0b5mts80000gn/T/tmp-4781cbxbAysR8Ca.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ycammarata/footprophet/",
+        "commit": "89220b0754ccec600749190f1728e4aab7b62329"
+    },
+    "email": "addapierr@gmail.com",
+    "root": "/Users/pierreadda/Documents/Jedha_projects/footprophet",
+    "host": "Pro-de-Pierre",
+    "username": "pierreadda",
+    "executable": "/Users/pierreadda/opt/anaconda3/envs/foot_env/bin/python"
+}
