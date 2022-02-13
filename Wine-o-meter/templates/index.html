@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block content %}
+<i style="font-size:120%;">Predict the quality of your wine!</i>
+</br></br></br>
+<h2 style="font-size:170%;">How to make your prediction?</h2>
+</br>
+<ol>
+<li style="font-size:140%;"> Make requests from a python script using <B><i>Wine-o-Meter</i></B>'s API: 
+    <p STYLE="padding: 0 0 0 20px;">
+    </br>First, enter you input as a list of 11 numbers corresponding to the wine's characteristics:
+    </br><code STYLE="padding:0 0 0 40px;">
+     input = [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]
+    </code>
+
+    </br></br>You also can make multiple entries at once:
+    </br><code STYLE="padding:0 0 0 40px;">
+    input = [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [5.0, 0.98, 0.32, 18.9, 0.050, 75.0, 122.0, 0.401, 3.1, 0.21, 1.2]]
+   </code>
+
+    </br></br>Then enter:
+    </br><code STYLE="padding:0 0 0 40px;">
+        requests.post("{{base_url+pred_url[1:]}}", json={"input": input}).json()
+    </code>
+    </br> </br> Your result should appear in the form:
+    </br><code STYLE="padding:0 0 0 40px;">
+        {'predict_1': '6', 'predict_2': '5'}
+    </code>
+    </p>
+    
+</li>
+<li style="font-size:140%;"><i>New:</i> Make a prediction directly on <B><i style="color:blue"><a href={{input_url}}>Wine-o-Meter</a></i></B>'s website!
+
+
+</li>
+
+</ol>
+{% endblock %}

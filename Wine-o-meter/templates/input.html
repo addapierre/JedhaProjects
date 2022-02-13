@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Manual Input</h2>
+
+<p>Please input your data as a list of 11 numbers.<br/>If you want to test the model, simply copy and paste one of the following lists : 
+</br>
+<ul>
+    <li> [8.50e+00, 2.60e-01, 2.10e-01, 1.62e+01, 7.40e-02, 4.10e+01,1.97e+02, 9.98e-01, 3.02e+00, 5.00e-01, 9.80e+00]</li>
+    <li> [7.000e+00, 2.700e-01, 3.600e-01, 2.070e+01, 4.500e-02, 4.500e+01, 1.700e+02, 1.001e+00, 3.000e+00, 4.500e-01, 8.800e+00]</li>
+    <li> [9.10e+00, 2.70e-01, 4.50e-01, 1.06e+01, 3.50e-02, 2.80e+01,1.24e+02, 9.97e-01, 3.20e+00, 4.60e-01, 1.04e+01]</li>
+</ul>
+</br></br>
+</p>
+<form action="" method="post">
+    <p><input type="text" name="input_list" placeholder="input list" /></p>
+    <input type="submit" value="submit" >
+</form>
+
+{%if pred%}
+    <h3>Résultats de la prédiction:<br/>Votre vin a un score de {{ pred }}</h3>
+{% endif %}
+
+{% endblock %}
