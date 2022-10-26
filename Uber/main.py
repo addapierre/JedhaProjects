@@ -1,19 +1,16 @@
 import pandas as pd
 import numpy as np
-import json
 import time
+import yaml
+import requests
 
-import dash
-from dash import html, Dash
+from dash import html, Dash, no_update
 from dash import dcc
-from dash_extensions.enrich import Output, DashProxy, Input, MultiplexerTransform
-from dash.dependencies import State#, Input, Output,
-import re
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
+from dash.dependencies import State, Input, Output
 
 import plotly.express as px
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 import plotly.express as px
 import plotly.graph_objects as go
@@ -21,26 +18,31 @@ import plotly.graph_objects as go
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-#app = Dash(__name__, external_stylesheets=external_stylesheets)
-app = DashProxy(__name__, external_stylesheets=external_stylesheets, transforms=[MultiplexerTransform()])
+app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
+
+def make_secrets():
+    with open('secrets.yaml', 'r') as tt:
+        secrets = yaml.full_load(tt)
+    return secrets
+
 start_time = time.time()
-date = {'mois' : 1, 'jour' : 0, 'heure_1' : 10, 'heure_2' : 11}
-mois = ['Mai', 'Juin', 'Juillet', 'Aout']
-jour = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
-foo = 0
+
 
 def init_fig_elbow(dim1, dim2):
-    fig1 = go.Figure()
+    fig1 = make_subplots(specs=[[{"secondary_y": True}]])
     fig1.update_xaxes(autorange = False, range = [dim1,dim2])
-    fig1.update_yaxes(autorange=False, range=[0, 1.1])
+    fig1.update_yaxes(autorange=False, range=[0, 1.1], secondary_y = False)
+    fig1.update_yaxes(autorange=False, range=[0, 1.1], secondary_y = True)
     fig1.update_layout(
         title="Elbow",
-        xaxis_title="Number of clusters",
-        yaxis_title="elbow normalized")
+        xaxis_title="Number of clusters")
+    fig1.update_yaxes(title_text = "elbow normalized", secondary_y = False)
+    fig1.update_yaxes(title_text = "elbow derivative", secondary_y = True)
 
     return fig1
+
 def init_fig_sil(dim1, dim2):
     fig1 = go.Figure()
     fig1.update_xaxes(autorange = False, range = [dim1,dim2])
@@ -71,21 +73,37 @@ def init_fig_map():
 
 app.layout = html.Div([
 
-    dcc.Store(id='dataframe_store'),
-    dcc.Store(id='elbow_store'),
-    dcc.Store(id='best_values_store'),
-    dcc.Store(id='intermediate', data = json.dumps({'kmeans_list' : [], 'i': 1, "elbow" : [] })),
-    
+    dcc.Store(
+        id = "date", 
+        data = {
+            'mois' : 1, 
+            'jour' : 0, 
+            'heure_1' : 10, 
+            'heure_2' : 11,
+            'liste_mois' :  ['May', 'June', 'July', 'August'],
+            'liste_jours' : ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saterday', 'Sunday']
+            }),
+   
     html.Div([
+        html.Div(
+            html.H1('NYC Uber requests clustering '), 
+            style = {
+                'background-color': 'white',
+                'height': '50px',
+                'width': '100%',
+                'margin-top': '0px',
+                'margin-bottom': '20px',
+                'padding': '0px',
+            }),
         html.Div([
             dcc.Dropdown(
                 id = 'month_select',
-                options = [{ 'label' : j, 'value' : i} for i, j in enumerate(mois)],
+                options = [{ 'label' : j, 'value' : i} for i, j in enumerate(['May', 'June', 'July', 'August'])],
                 value = 0
             ),
             dcc.RadioItems(
                 id = 'day_select',
-                options = [{'label' : j, 'value' : i} for i, j in enumerate(jour)],
+                options = [{'label' : j, 'value' : i} for i, j in enumerate(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saterday', 'Sunday'])],
                 value = 0,
                 labelStyle={'display': 'inline-block', 'marginTop': '15px'}
             )
@@ -105,6 +123,7 @@ app.layout = html.Div([
             id = 'hour_select',
             min = 0,
             max = 23,
+            step = 1,
             value = [10,10],
             tooltip = {"placement" : "bottom", 'always_visible' : True},
             allowCross = False
@@ -135,14 +154,27 @@ app.layout = html.Div([
 
                                             #UPDATE DE LA VARIABLE DATE
 @app.callback(
-        [Output("output1", 'children'), Output("output2", 'children'), Output("output3", 'children')],
-        [Input("day_select", "value"), Input("month_select", "value"), Input("hour_select", "value")])
-def update_day(day, month, hours):
+        [
+            Output("output1", 'children'), 
+            Output("output2", 'children'), 
+            Output("output3", 'children'),
+            Output("date", "data")
+        ],
+        [
+            Input("day_select", "value"), 
+            Input("month_select", "value"), 
+            Input("hour_select", "value")
+        ],
+        State("date", "data")
+        )
+def update_day(day, month, hours, date):
+    mois = date['liste_mois']
+    jour = date['liste_jours']
     date['jour'] = day
     date['mois'] = month
     date['heure_1'] = hours[0]
     date['heure_2'] = hours[1]
-    return f'mois: {mois[date["mois"]]}',   f'jour: {jour[date["jour"]]}',  f'de {date["heure_1"]}h à {date["heure_2"]+1}h'
+    return f'Month: {mois[date["mois"]]}',   f'Day: {jour[date["jour"]]}',  f'from {date["heure_1"]}:00 to {date["heure_2"]+1}:00', date
 
 
 
@@ -151,206 +183,111 @@ def update_day(day, month, hours):
                                             #LIT LE BON FICHIER CSV ET SELECTIONNE LE JOUR ET L'HEURE
 
 @app.callback(
-    [Output('dataframe_store', 'data'),
-    Output('output1', 'className')],
+    [
+        Output('elbow', 'figure'),
+        Output('silhouette', 'figure'),
+        Output('NY_map', 'figure')
+    ],
     Input('submit-val', 'n_clicks'),
-    State('intermediate', 'data'),
+    State('date', 'data'),
     prevent_initial_call=True
 )
-def read_file( _, intermediate):
-
-    i = json.loads(intermediate)['i']
-    if i==1:
-        #Selection du mois
-        filepath = './uber-trip-data/'+mois[date["mois"]]+'.csv'
-        full_month =  pd.read_csv(filepath, usecols=['hour', 'dayofweek', 'Lat', 'Lon'], dtype={'hour' : np.int8, 'dayofweek' : np.int8,'Lat' : np.float32, 'Lon' : np.float32 })
-
-        # Selection des heures    
-
-        if date["heure_1"] == date["heure_2"]:
-            full_month = full_month.loc[full_month.hour == date["heure_1"], :]
-        else:
-            full_month = full_month.loc[(full_month.hour >= date["heure_1"] ) & (full_month.hour <= date["heure_2"] ), :]
-
-        # Selection du jour 
-
-        df = full_month.loc[full_month.dayofweek == date["jour"], ['Lat','Lon']].copy()
-
-
-        return df.to_json(), 'dataframe'
-    else:
-        return dash.no_update, 'dataframe'
-
-
-###################################################################################################################################################################################################
-
-
-
-                                               #CALCUL DE L'ELBOW
-                                               
-
-
-@app.callback(
-    [Output('intermediate', 'data'),
-     Output('elbow', 'figure'),
-     Output('elbow_store', 'data')],
-    Input('output1', 'className'),
-    State('dataframe_store', 'data'),
-    State('intermediate', 'data'),
-    prevent_initial_call=True
-)
-def elbow1( _, df, intermediate):
-
-    df = pd.read_json(df, dtype={'Lat' : np.float32, 'Lon' : np.float32 })
-
-    i = json.loads(intermediate)['i']
-    elbow = json.loads(intermediate)['elbow']
-    kmeans_list = json.loads(intermediate)['kmeans_list']
-    k = []
+def submit( _, date):
+    secrets = make_secrets()
+    body = {}
     
-    fig_elb = go.Figure()
-    X = df[['Lat', 'Lon']].values
+    mois = ['Mai', "Juin", 'Juillet', 'Aout']
+    mois = mois[date['mois']]
 
-    if i < 11:
-        #print(i, (time.time() - start_time))
-        kmeans = KMeans(n_clusters=i, random_state=0)
-        kmeans.fit(X)
-        kmeans_list.append(kmeans.labels_.tolist())
-        elbow.append(kmeans.inertia_)
-        fig_elb.add_trace(go.Scatter(x=list(range(1,i+1)),
-                             y=elbow,
-                             mode='lines+markers',
-                             name='elbow'))
-        fig_elb.update_layout(
+    body['hour1'] = date['heure_1']
+    body['hour2'] = date['heure_2']
+    body['month'] = mois
+    body['day'] = date['jour']
+    url = secrets['lambda_url']
+
+    request_result = requests.post(url, json = body)
+    request_result = request_result.json()
+
+    elbow = request_result['elbow']
+    elbow = np.array(elbow)
+    elbow = elbow/elbow.max()
+    best_elbow = request_result['best_elbow']
+    silhouette = request_result['silhouette']
+    best_silhouette = request_result['best_silhouette']
+    labels = request_result['labels']
+    elbow_d = request_result['elbow_d']
+    index = request_result['index']
+
+    # index pointe vers les lignes qui correspondent au jour et au mois
+    coord = np.load('docker_lambda/data/'+mois+'.npy', allow_pickle=True)
+    coord = coord[index]
+
+    # elbow figure
+    fig_elbow = make_subplots(specs=[[{"secondary_y": True}]])
+    fig_elbow.add_trace( 
+        go.Scatter(
+            x = list(range(2,14)),
+            y = elbow,
+            mode='lines+markers',
+            name="Elbow",
+            )
+        , secondary_y = False )
+    fig_elbow.add_trace(
+        go.Scatter(
+            x = list(range(3,13)), 
+            y = elbow_d,
+            line=dict(color='#d991ff', dash = 'dash'),
+            name = "elbow derivative"
+            ), 
+        secondary_y = True)
+    fig_elbow.update_layout(
         title="Elbow",
-        xaxis_title="Number of clusters",
-        yaxis_title="elbow normalized")
-
-        intermediate = json.dumps({'kmeans_list' : kmeans_list, 'i': i+1, "elbow" : elbow })
-
-
-        return [intermediate, fig_elb, dash.no_update]
-
-    else:
-        kmeans = KMeans(n_clusters=i, random_state=0)
-        kmeans.fit(X)
-        kmeans_list.append(kmeans.labels_.tolist())
-        elbow.append(kmeans.inertia_)
-
-        best_elbow = 0
-        range_elbow = range(1,i+1)
-
-        elbow = np.asarray(elbow)
-        elbow = elbow / elbow[0]
-        fig_elb.add_trace(go.Scatter(x=list(range_elbow),
-                                y=elbow,
-                                mode='lines+markers',
-                                name='elbow'))
-        fig_elb.update_layout(
-            title="Elbow",
-            xaxis_title="Number of clusters",
-            yaxis_title="elbow normalized")
-    
-        #Approximation du meilleur elbow
-        pente = (elbow[-1]-elbow[0])/(range_elbow[-1]-range_elbow[0])
-        for j in range_elbow[1:]:
-            d_elbow = elbow[j]-elbow[j-1]
-            if d_elbow > pente:
-                best_elbow = j
-                break
-        fig_elb.update_xaxes(autorange = False, range = [0,12])
-        fig_elb.update_yaxes(autorange=False, range=[0, 1.1])
-        fig_elb.add_shape( type='line',
-            x0=best_elbow, y0=0, x1=best_elbow, y1=1.1,
-            line=dict(
-                color='Red', dash="dot"
-            ))
-        elbow_json = json.dumps({'best_elbow': best_elbow, 'kmeans_list' : kmeans_list})
-        intermediate = json.dumps({'kmeans_list' : [], 'i': 1, "elbow" : [] }) #réinitialise la valeur intermediate pour la prochaine boucle
-    
-    return [intermediate, fig_elb, elbow_json]
+        xaxis_title="Number of clusters")
+    fig_elbow.update_yaxes(title_text = "elbow normalized", secondary_y = False)
+    fig_elbow.update_yaxes(title_text = "elbow derivative", secondary_y = True)
+    fig_elbow.add_shape(
+        type='line',
+        x0=best_elbow, y0=0, x1=best_elbow, y1=1.1,
+        line=dict(
+            color='Red', dash="dot"
+        ))
 
 
-###################################################################################################################################################################################################
-
-
-                                        #CALCUL DE LA SILHOUETTE
-@app.callback(
-    [Output('silhouette', 'figure'),
-     Output('best_values_store', 'data')],
-    Input('elbow_store', 'data'),
-    State('dataframe_store', 'data'),
-    prevent_initial_call=True
-)
-def silhouette(elbow_json, df):
-    best_elbow  = json.loads(elbow_json)['best_elbow']
-    kmeans_list = json.loads(elbow_json)['kmeans_list']
-
-    df = pd.read_json(df, dtype={'Lat' : np.float32, 'Lon' : np.float32 })
-    X = np.asarray(df[['Lat', 'Lon']])
-
-    ##global best_sil, best_kmeans
-    sil = []
-    k = []
+    # silhouette figure
+    silhouette = np.array(silhouette)
     fig_sil = go.Figure()
+    
 
-    if best_elbow + 6 < 15:
-        for i in range(best_elbow, best_elbow + 6):
-            sil.append(silhouette_score(X, kmeans_list[i]))
-            k.append(i)
-    else:
-        for i in range(best_elbow, 15):
-            sil.append(silhouette_score(X, kmeans_list[i]))
-            k.append(i)
-    sil = np.asarray(sil)
-    best_sil = k[sil.argsort()[-1]]
-    best_kmeans = kmeans_list[best_sil]
 
-    fig_sil.add_trace(go.Bar(x=k, y=sil, name='silhouette'))
+    fig_sil.add_trace(go.Bar(x=list(range(best_elbow, best_elbow+silhouette.shape[0])), y=silhouette, name='silhouette'))
     fig_sil.update_xaxes(autorange=True, range=[0, 16])
-    fig_sil.update_yaxes(autorange=False, range=[sil[sil.argsort()[0]]-0.2, sil[sil.argsort()[-1]]+0.3])
+    fig_sil.update_yaxes(autorange=False, range=[silhouette.min()-0.2, silhouette.max()+0.3])
     fig_sil.update_layout(
         title="Silhouette",
         xaxis_title="number of clusters",
         yaxis_title="silhouette")
     fig_sil.add_annotation(
-        x=best_sil,  # arrows' head
-        y=sil[sil.argsort()[-1]],  # arrows' head
-        ax=best_sil,  # arrows' tail
-        ay=sil[sil.argsort()[-1]]+0.2,  # arrows' tail
-        xref='x',
-        yref='y',
-        axref='x',
-        ayref='y',
-        text='',  # if you want only the arrow
-        showarrow=True,
-        arrowhead=3,
-        arrowsize=1.5,
-        arrowwidth=3,
-        arrowcolor='red'
+        x = best_silhouette,  # arrows' head
+        y = silhouette.max(),  # arrows' head
+        ax = best_silhouette,  # arrows' tail
+        ay = silhouette.max()+0.2,  # arrows' tail
+        xref = 'x',
+        yref = 'y',
+        axref = 'x',
+        ayref = 'y',
+        text = '',  # if you want only the arrow
+        showarrow = True,
+        arrowhead = 3,
+        arrowsize = 1.5,
+        arrowwidth = 3,
+        arrowcolor = 'red'
     )
-    best_json = json.dumps({'best_sil' : best_sil, 'best_kmeans' : best_kmeans})
 
-    return fig_sil, best_json
+    # display labeled points on map
+    coord_df = pd.DataFrame(coord[:,:2], columns = ['Lat', 'Lon'])
+    coord_df['labels'] = labels
 
-
-
-###################################################################################################################################################################################################
-
-
-                                                #AFFICHAGE DE LA CARTE
-@app.callback(
-    Output('NY_map', 'figure'),
-    Input('best_values_store', 'data'),
-    State('dataframe_store', 'data'),
-    prevent_initial_call=True
-)
-def map_NYC(best_json, df):
-    df = pd.read_json(df, dtype={'Lat' : np.float32, 'Lon' : np.float32 })
-    best_kmeans = json.loads(best_json)['best_kmeans']
-
-    df['labels']= best_kmeans
-    fig = px.scatter_mapbox(df,
+    map_fig = px.scatter_mapbox(coord_df,
                             lat = 'Lat' ,
                             lon = 'Lon',
                             color = 'labels',
@@ -361,10 +298,8 @@ def map_NYC(best_json, df):
                             height=1000
                             )
 
-    return fig
 
-
-###################################################################################################################################################################################################
+    return [fig_elbow, fig_sil, map_fig]
 
 
 if __name__ == '__main__':
