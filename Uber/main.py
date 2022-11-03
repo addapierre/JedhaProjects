@@ -256,7 +256,7 @@ def submit( _, date):
     # silhouette figure
     silhouette = np.array(silhouette)
     fig_sil = go.Figure()
-    
+
 
 
     fig_sil.add_trace(go.Bar(x=list(range(best_elbow, best_elbow+silhouette.shape[0])), y=silhouette, name='silhouette'))

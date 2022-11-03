@@ -72,7 +72,7 @@ def handler(event, context):
 
     content['best_silhouette'] = int(best_silhouette)
 
-    labels = kmean_list[best_silhouette-1] #-1 because it begins at n=2
+    labels = kmean_list[best_silhouette-2] #-2 because it begins at n=2
     content['labels'] = labels
     content['index'] = index.tolist()
 
