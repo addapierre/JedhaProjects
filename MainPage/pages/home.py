@@ -25,7 +25,8 @@ layout = \
                 }),
             html.Div(
                 className="table",
-                children = html.Div(
+                children = [
+                    html.Div(
                     className='tr',
                     children = 
                     [
@@ -60,7 +61,7 @@ layout = \
                                             style = {
                                                 "text-align": "center",
                                                 }
-                                        )
+                                        ),
                                 ),
                                 dcc.Markdown(
                                     """
@@ -71,7 +72,7 @@ layout = \
                                     ### Methods:
 
                                     - **ETL/EDA**: *Pandas* and *Numpy*
-                                    - **Clustering**: *sklearn* K-Means, automated elbow method
+                                    - **Clustering**: *scikit-learn* K-Means, automated elbow method
                                     - **Deployment**: *Dash*, *Heroku*, and *AWS Lambda*
 
                                     ### App: 
@@ -189,7 +190,7 @@ layout = \
                                                     ),
                                             ],
                                             className='titre-projet',
-                                            href='www.google.com',
+                                            href='https://github.com/addapierre/JedhaProjects/tree/main/Walmart',
                                             style = {
                                                 "text-align": "center",
                                                 }
@@ -198,15 +199,82 @@ layout = \
                                     """
                                     ### Objectives:
 
-                                    - Use an API to get next week's weather forecast.
-                                    - Scrape booking.com to get touristic location's hotel info (gps coord., ratings, desc.)
-                                    - Make an app to select the best destination and hotel for your vacations.
+                                    - Clean a walmart sales dataset.
+                                    - impute missing data.
+                                    - Use regression models with regulation to predict a store sales.
                                     
                                     ### Methods:
 
-                                    - **ETL/EDA**: *API* with requests library, *Pandas* 
-                                    - **Scraping**: scraping booking.com with *scrapy*
-                                    - **Deployment**: *Dash* and *Heroku*
+                                    - **ETL/EDA**: *Pandas* 
+                                    - **ML**: *scikit-learn* ridge and lasso regression, grid search to find best hyperparameters
+                                     
+                                    """,
+                                    style = {
+                                        "margin": "20px"
+                                    }
+                                ),
+                                html.A(
+                                    dcc.Markdown(
+                                        """### Notebook""",
+                                        style = {
+                                        "margin": "20px"
+                                        }
+                                    ),
+                                    className='titre-projet',
+                                    href = "https://github.com/addapierre/JedhaProjects/blob/main/Walmart/01-Walmart_sales.ipynb"
+                                )
+                                
+                            ]
+                        )),
+                        
+                    ]
+                ),
+                html.Div(
+                    className='tr',
+                    children = 
+                    [
+                        html.Div(className='tcell',
+                        children= html.Div( className='project-block',
+                            children = 
+                            [
+                                html.Div
+                                ( 
+                                    className= 'subhead',
+                                    children = html.A(
+                                            children=\
+                                            [
+                                                html.Img(
+                                                    src='assets/images/wine_logo.png',
+                                                    style= {
+                                                        "float": "left",
+                                                        "height": "60px",
+                                                        "width": "auto",
+                                                        'margin-left': '30px',
+                                                        'margin-top': '5px'
+                                                    }),
+                                                dcc.Markdown(
+                                                    """### Wine-O-Meter Flask web page""",
+                                                    style = {
+                                                        'transform' : 'translate(-1%, 5%)'
+                                                    }
+                                                    ),
+                                            ],
+                                            className='titre-projet',
+                                            href='https://github.com/addapierre/JedhaProjects/tree/main/Wine-o-meter',
+                                            style = {
+                                                "text-align": "center",
+                                                }
+                                        )
+                                ),
+                                dcc.Markdown(
+                                    """
+                                    ### Objectives:
+
+                                    - Serve a simple ML model with a Flask  multi-page web app and API
+                                    
+                                    ### Methods:
+
+                                    - **Deployment**: *Flask* and *Heroku*
 
                                     ### App: 
                                     """,
@@ -216,23 +284,24 @@ layout = \
                                 ),
                                 html.A(
                                     html.Img(
-                                        src = 'assets/images/kayak_app.png',
+                                        src = 'assets/images/wine_app.png',
                                         style = {
                                             "width" : "auto",
                                             "height" : "auto",
                                             "max-width" : "270px",
-                                            "margin-top" : "-50px",
+                                            "margin-top" : "-0px",
                                             "margin-left": "100px",
                                             "box-shadow": "0px 0px 10px grey"
                                         }
                                     ),
-                                    href = "https://kayak-app-pierre.herokuapp.com/"
+                                    href = "https://wine-o-meter-pierre.herokuapp.com/"
                                 )
                                 
                             ]
                         )),
+                        
                     ]
-                ),
+                )],
                 style = {
                     'margin': 'auto'
                 }
