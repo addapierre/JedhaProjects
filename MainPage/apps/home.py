@@ -1,7 +1,5 @@
-import dash
 from dash import html, dcc
 
-dash.register_page(__name__, path = '/')
 
 layout = \
     html.Div(
@@ -57,7 +55,7 @@ layout = \
                                                     ),
                                             ],
                                             className='titre-projet',
-                                            href='www.google.com',
+                                            href='/apps/uber_project',
                                             style = {
                                                 "text-align": "center",
                                                 }
